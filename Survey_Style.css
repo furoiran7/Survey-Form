@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 800px;
+	height: auto;
+	background-color: #7FFF00;
+	margin: 20px 0 20px 280px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 10px 5px #98FB98; 
+	position: absolute;
+	display: block;
+}
+.head{
+	width: 780px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 20px 10px 10px 10px;
+	padding-top: 20px;
+	position: relative;
+	display: block;
+	border-radius: 10px;
+}
+.head #title{
+	font-family: 'Lucida Console', monospace;
+	font-size: 35px;
+	padding: 20px 0 10px 30px;
+}
+.head #description {
+	font-family: 'Monaco', monospace;
+	font-size: 18px;
+	padding: 0 0 10px 30px;
+}
+.head #description1{
+	font-family: 'Monaco', monospace;
+	font-size: 18px;
+	padding: 0 0 10px 30px;
+	color: #FF0000;
+}
+/*Form Section*/
+#survey-form{
+	width: 780px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 20px 10px 10px 10px;
+	padding-top: 20px;
+	position: relative;
+	display: block;
+	border-radius: 10px;
+}
+input[type=text], #email, input[type="number"],
+ #dropdown, .field, #comment, #submit{
+	width: 90%;
+	padding: 12px 50px;
+	margin: 5px 0 10px 30px;
+	box-sizing: border-box;
+	resize: none;
+}
+#name-label, #email-label, #number-label,
+#dropdown-label, #radio-label, #comments-label{
+	font-family: 'Monaco', monospace;
+	font-size: 18px;
+	padding: 10px 0 20px 30px;
+}
+.radio{
+	width: 90%;
+	padding: 12px 50px;
+	margin: 5px 0 10px 0px;
+	box-sizing: border-box;
+}
+#submit:hover{
+	background-color: #7FFF00;
+}
